@@ -14,7 +14,7 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize, pdfUrl
   };
 
   return (
-    <a href='#footer' className='btn-mobile'>
+    <a className='btn-mobile'>
       <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onClick={openPdfInNewTab} type={type}>
         {children}
       </button>

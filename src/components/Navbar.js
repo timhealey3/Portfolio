@@ -18,6 +18,14 @@ function Navbar() {
       }
   };
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    closeMobileMenu();
+  };
+
   useEffect(() => {
       showButton();
   }, []);
@@ -28,7 +36,7 @@ function Navbar() {
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <a href="#home" className="navbar-logo" onClick={closeMobileMenu}>
+            <a onClick={() => scrollToSection('home')} className="navbar-logo">
                 TIM HEALEY
             </a>
             <div className='menu-icon' onClick={handleClick}>
@@ -37,22 +45,22 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
-                    <a href='#home' className='nav-links' onClick={closeMobileMenu}>
+                    <a onClick={() => scrollToSection('home')} className='nav-links'>
                         Home
                     </a>
                 </li>
                 <li className='nav-item'>
-                    <a href='#cards' className='nav-links' onClick={closeMobileMenu}>
+                    <a onClick={() => scrollToSection('cards')} className='nav-links'>
                         Projects
                     </a>
                 </li>
                 <li className='nav-item'>
-                    <a href='#about' className='nav-links' onClick={closeMobileMenu}>
+                    <a onClick={() => scrollToSection('about')} className='nav-links'>
                         About Me
                     </a>
                 </li>
                 <li className='nav-item'>
-                    <a href='#footer' 
+                    <a 
                       className='nav-links-mobile' 
                       onClick={closeMobileMenu}>
                         Resume
