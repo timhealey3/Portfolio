@@ -45,6 +45,30 @@ video {
   margin-left: 4px;
 }
 
+.word span::after {
+  content: "";
+  animation: blink 0.5s ease infinite alternate-reverse;
+}
+
+@keyframes blink {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+}
+
+.word.empty {
+  visibility: hidden;
+}
+
+.word.empty span::after {
+  visibility: visible;
+  right: 0;
+}
+
 @media screen and (max-width: 960px){
   .hero-container > h1 {
     color: #fff;
