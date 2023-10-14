@@ -1,11 +1,11 @@
-import React from 'react'
-import { useTypewriter } from 'react-simple-typewriter'
+import React from 'react';
+import { useTypewriter } from 'react-simple-typewriter';
 
-function MyComponent(){
+const HeroWrite = () => {
   const [text] = useTypewriter({
     words: ['Hello', 'From', 'Typewriter', 'Hook!'],
     loop: 0
-  })
+  });
 
   return (
     <div className='App'>
@@ -14,4 +14,5 @@ function MyComponent(){
   );
 };
 
-export default MyComponent;
+export default HeroWrite;
+
