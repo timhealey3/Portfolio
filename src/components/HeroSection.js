@@ -2,28 +2,20 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import { useTypewriter } from 'react-simple-typewriter';
-
-const MyComponent = () => {
-  const [text] = useTypewriter({
-    words: ['Hello', 'From', 'Typewriter', 'Hook!'],
-    loop: 0
-  })
-
-  return (
-    <div className='App'>
-      <span>{text}</span>
-    </div>
-  )
-}
+import { useTypingText } from "./useTypingText";
 
 
 function HeroSection() {
+    const { word, stop, start } = useTypingText(
+    ["fast", "reliable", "affordable"],
+    130,
+    20
+  );
   return (
     <div className='hero-container'>
       <video src='/videos/numberBackground.mp4' autoPlay loop muted />
       <h1>Hi, I'm Tim Healey</h1>
-      <MyComponent />
+      <p>Our product is {word}</p>
         <div className='hero-btns'>
         <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
         Resume
