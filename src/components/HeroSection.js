@@ -2,10 +2,13 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import {TypeAnimation}
+import {TypeAnimation} from 'react-type-animation';
 
 function HeroSection() {
   return (
+    <div className='hero-container'>
+      <video src='/videos/numberBackground.mp4' autoPlay loop muted />
+      <h1>Hi, I'm Tim Healey</h1>
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
@@ -23,9 +26,6 @@ function HeroSection() {
       style={{ fontSize: '2em', display: 'inline-block' }}
       repeat={Infinity}
     />
-    <div className='hero-container'>
-      <video src='/videos/numberBackground.mp4' autoPlay loop muted />
-      <h1>Hi, I'm Tim Healey</h1>
         <div className='hero-btns'>
         <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
         Resume
