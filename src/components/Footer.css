@@ -1,3 +1,10 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .footer-container{
   background-color: #242424;
   padding: 1.5rem 0 2rem 0;
@@ -26,8 +33,6 @@
   padding: 4px;
 
 }
-
-
 
 .footer-subscription-heading {
   margin-bottom: 24px;

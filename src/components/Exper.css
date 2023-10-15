@@ -1,6 +1,6 @@
 #exper{
   overflow: hidden;
-  width: 100vw;
+  width: 95vw;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,7 @@
   justify-content: center;
   text-align: left;
   background-color: #fff;
+  padding-bottom: 6rem;
 }
 
 .skillTitle {
@@ -29,6 +30,7 @@
   width: 100vw;
   max-width: 80%;
   text-align: left;
+  flex-wrap: wrap;
 }
 
 .skillBar {
@@ -38,6 +40,7 @@
   padding: 1.5rem 2rem;
   border-radius: 0.5rem;
   background-color: #F0F0F0;
+  overflow: hidden;
 }
 
 .skillBarImg {
@@ -50,15 +53,22 @@
 .skillBarText>p {
   font-size: 1rem;
   font-weight: 200;
+  white-space: normal;
 }
 
 @media screen and (max-width:720px){
+  .skillBar {
+    width: 80%;
+  }
   .skillBarText>p {
     font-size: 2vw;
   }
 }
 
 @media screen and (max-width:480px) {
+  .skillBar {
+    width: 80%;
+  }
   .skillBarText>p {
     font-size: 3vw;
   }

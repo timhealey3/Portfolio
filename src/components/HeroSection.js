@@ -7,7 +7,7 @@ import { useTypingText } from "./useTypingText";
 
 function HeroSection() {
     const { word, stop, start } = useTypingText(
-    ["I am currently looking for my first job!", "I am a Full Stack Developer", "I am a Senior at Western Michigan University"],
+    ["I am currently looking for a job!", "I am a Full Stack Developer", "I am a Senior at Western Michigan University"],
     130,
     20
   );
