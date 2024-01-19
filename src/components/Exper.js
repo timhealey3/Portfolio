@@ -10,7 +10,7 @@ const Exper = () => {
         <img src='images/wmu.png' alt='Education' className='skillBarImg' />
         <div className="skillBarText">
           <h2>Education</h2>
-          <p>BS in Computer Science, 3.54 GPA, 2019-2024</p>
+          <p>BS in Computer Science, 3.57 GPA, 2019-2024</p>
         </div>
       </div>
       <div className="skillBar">
