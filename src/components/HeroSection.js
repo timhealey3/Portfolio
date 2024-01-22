@@ -13,9 +13,7 @@ function HeroSection() {
   );
   return (
     <div className='hero-container'>
-      <video autoPlay loop muted playsinline>
-          <source src='/videos/numberBackground.mp4' />
-      </video>
+      <video src={/videos/numberBackground.mp4} autoPlay="autoplay" playsInLine="playsinline" loop="true" muted="true"/>
       <h1>Hi, I'm Tim Healey</h1>
       <p>{word}|</p>
         <div className='hero-btns'>
