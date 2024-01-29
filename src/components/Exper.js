@@ -21,7 +21,7 @@ const Exper = () => {
         </div>
       </div>
       <div className="skillBar">
-        <img src='images/JavaScript-logo.png' alt='Skills' className='skillBarImg' />
+        <img src='images/c++.png' alt='Skills' className='skillBarImg' />
         <div className="skillBarText">
           <h2>Skills</h2>
           <p>C++, Javascript, Python, React, React Native</p>

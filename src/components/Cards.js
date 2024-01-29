@@ -10,19 +10,25 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
+              src='images/sfml.png'
+              text='Roguelike RPG'
+              label='C++'
+              path='https://github.com/timhealey3/RPG-Survival'
+            />
+            <CardItem
               src='images/statApp.png'
               text='Goalie Stat Tracker'
               label='React Native'
               path='https://play.google.com/store/apps/details?id=com.timhealey34.GoalieStats'
             />
+          </ul>
+          <ul className='cards__items'>
             <CardItem
               src='images/webImage.png'
               text='This Website!'
               label='React'
               path='https://github.com/timhealey3/ResumeWebSite'
             />
-          </ul>
-          <ul className='cards__items'>
             <CardItem
               src='images/popularMovies.png'
               text='Popular Movies Now'
@@ -34,12 +40,6 @@ function Cards() {
               text='Random Password Generator'
               label='Python'
               path='https://github.com/timhealey3/Password-Generator'
-            />
-            <CardItem
-              src='images/palmWebsite.png'
-              text='Prickly Palm Website'
-              label='HTML/CSS'
-              path='https://pricklypalm.000webhostapp.com/'
             />
           </ul>
         </div>
