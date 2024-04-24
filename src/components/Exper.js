@@ -24,7 +24,7 @@ const Exper = () => {
         <img src='images/c++.png' alt='Skills' className='skillBarImg' />
         <div className="skillBarText">
           <h2>Skills</h2>
-          <p>C++, Javascript, Python, React, React Native</p>
+          <p>C++, C, Java, Python, Javascript</p>
         </div>
       </div>
     </section>
