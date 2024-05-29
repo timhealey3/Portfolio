@@ -17,7 +17,7 @@ const Exper = () => {
         <img src='images/tgw.png' alt='Work' className='skillBarImg' />
         <div className="skillBarText">
           <h2>Work Experience</h2>
-          <p>Auto-Owners Insurance [Contracted by Brooksource]: Associate Software Developer/p>
+          <p>Auto-Owners Insurance [Contracted by Brooksource]: Associate Software Developer</p>
           <p>TGW North America: Software Engineer Intern</p>
         </div>
       </div>
