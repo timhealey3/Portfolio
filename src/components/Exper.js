@@ -22,7 +22,7 @@ const Exper = () => {
         <div className="skillBarText">
           <h2>Work Experience</h2>
           <p>
-            Auto-Owners Insurance [Contracted by Brooksource]: Associate
+            Brooksource: Associate
             Software Dev
           </p>
           <p>TGW North America: Software Engineer Intern</p>
