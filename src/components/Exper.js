@@ -6,9 +6,9 @@ const Exper = () => {
     <section id="exper">
       <span className="skillTitle">About Me</span>
       <span className="skillDesc">
-        I am currently working on a temporary contract for Brooksource. Where I
-        work at Auto Owners Insurance as a Java dev. I spend my free time
-        working on games and learning about machine learning!
+        I am currently working at Auto Owners Insurance. Where I
+        work as a Java dev on a large enterprise team. I spend my free time
+        working on simulations, embedded systems, and learning about machine learning!
       </span>
       <div className="skillBar">
         <img src="images/wmu.png" alt="Education" className="skillBarImg" />
@@ -22,8 +22,8 @@ const Exper = () => {
         <div className="skillBarText">
           <h2>Work Experience</h2>
           <p>
-            Brooksource: Associate
-            Software Dev
+            Auto Owners Insurance: Associate
+            Software Dev 2
           </p>
           <p>TGW North America: Software Engineer Intern</p>
         </div>
