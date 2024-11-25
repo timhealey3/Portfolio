@@ -8,7 +8,7 @@ const Exper = () => {
       <span className="skillDesc">
         I am currently working at Auto Owners Insurance. Where I
         work as a Java dev on a large enterprise team. I spend my free time
-        working on simulations, embedded systems, and learning about machine learning!
+        working on simulations, video games, and learning about machine learning!
       </span>
       <div className="skillBar">
         <img src="images/wmu.png" alt="Education" className="skillBarImg" />
