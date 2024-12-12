@@ -10,14 +10,14 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/gameScreenshot.png"
-              text="Roguelike RPG"
-              label="C++"
-              path="https://github.com/timhealey3/RPG-Survival"
+              src="images/pi.jpeg"
+              text="Autonomous RC Car"
+              label="Python & Kotlin"
+              path="https://github.com/timhealey3/rc_car_auto"
             />
             <CardItem
               src="images/selfDrivingCar.png"
-              text="Autonomous Car Neural Network"
+              text="Simulated Car Neural Network"
               label="Python"
               path="https://github.com/timhealey3/behavioural_cloning_Self_Driving_Car"
             />
@@ -27,7 +27,7 @@ function Cards() {
               src="images/statApp.png"
               text="Goalie Stat Tracker"
               label="React Native / JS"
-              path="https://play.google.com/store/apps/details?id=com.timhealey34.GoalieStats"
+              path="https://github.com/timhealey3/Goalie_Stat_Tracker"
             />
             <CardItem
               src="images/webImage.png"

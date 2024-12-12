@@ -7,18 +7,11 @@ const Exper = () => {
       <span className="skillTitle">About Me</span>
       <span className="skillDesc">
         I am currently working at Auto Owners Insurance. Where I
-        work as a Java dev on a large enterprise team. I spend my free time
+        work as a Java & Kotlin dev on a large enterprise team. I spend my free time
         working on simulations, video games, and learning about machine learning!
       </span>
-      <div className="skillBar">
-        <img src="images/wmu.png" alt="Education" className="skillBarImg" />
-        <div className="skillBarText">
-          <h2>Education</h2>
-          <p>BS in Computer Science, 3.60 GPA, 2019-2024</p>
-        </div>
-      </div>
-      <div className="skillBar">
-        <img src="images/tgw.png" alt="Work" className="skillBarImg" />
+     <div className="skillBar">
+        <img src="images/ao.jpg" alt="Work" className="skillBarImg" />
         <div className="skillBarText">
           <h2>Work Experience</h2>
           <p>
@@ -29,10 +22,18 @@ const Exper = () => {
         </div>
       </div>
       <div className="skillBar">
+        <img src="images/wmu.png" alt="Education" className="skillBarImg" />
+        <div className="skillBarText">
+          <h2>Education</h2>
+          <p>BS in Computer Science, 3.60 GPA, 2019-2024</p>
+        </div>
+      </div>
+ 
+    <div className="skillBar">
         <img src="images/c++.png" alt="Skills" className="skillBarImg" />
         <div className="skillBarText">
           <h2>Skills</h2>
-          <p>C++, C, Java, Python, Javascript</p>
+          <p>C++, C, Java, Kotlin, Python</p>
         </div>
       </div>
     </section>
