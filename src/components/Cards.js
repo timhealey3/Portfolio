@@ -13,7 +13,7 @@ function Cards() {
               src="images/pi.jpeg"
               text="Autonomous RC Car"
               label="Python & Kotlin"
-              path="https://github.com/timhealey3/rc_car_auto"
+              path="https://github.com/timhealey3/rc_car_pi/tree/main"
             />
             <CardItem
               src="images/selfDrivingCar.png"
