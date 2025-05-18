@@ -5,11 +5,11 @@ const BACKWARD = "backward";
 
 export const useTypingText = (words, keySpeed = 1000, maxPauseAmount = 10) => {
   const [wordIndex, setWordIndex] = useState(0);
-  const [currentWord, setCurrentWord] = useState(words[wordIndex].split(""));
+  const [currentWord, setCurrentWord] = useState([]);
   const [isStopped, setIsStopped] = useState(false);
-  const direction = useRef(BACKWARD);
+  const direction = useRef(FORWARD);
   const typingInterval = useRef();
-  const letterIndex = useRef();
+  const letterIndex = useRef(0);
 
   const stop = () => {
     clearInterval(typingInterval.current);
